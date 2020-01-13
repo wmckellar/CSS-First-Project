@@ -17,7 +17,10 @@ a:hover {
 }
 
 .boxes {
+    display: block;
     border: 1em solid red;
+    width: 200px;
+    height: 200px;
     margin: 3em;
     padding: 3em;
     border-radius: 2em;
@@ -39,5 +42,57 @@ a:hover {
     background-color: rgb(109, 83, 83);
 }
 
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: black;
+    position: relative;
+    top: 60px;
+}
+
+h1 {
+    color: blue;
+}
+
+.original {
+    color: green;
+}
+
+.additional {
+    color: purple;
+}
+
+#show1 {
+    color: black;
+}
+
+#show2 {
+    color: red;
+}
+
+#show3 {
+    color: yellow;
+}
+
+#show4 {
+    color: rgb(45, 100, 45);
+}
+
+#show5 {
+    color: rgb(110, 88, 46);
+}
+
+ul {
+    color: green;
+}
+
+#wars {
+    color: black;
+}
+
+.outline {
+    border: 2px solid black; 
+}
 
 
