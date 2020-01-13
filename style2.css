@@ -1,0 +1,102 @@
+h1 {
+    text-align: center;
+}
+
+#board {
+    padding: 3em top;
+}
+
+.topleft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.topmiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.topright {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.middleleft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.middlemiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border: 1px solid black;
+}
+
+.middleright {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.bottomleft {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.bottommiddle {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.bottomright {
+    float: left;
+    height: 100px;
+    width: 100px;
+    clear: fix;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.row {
+    width: 310px;
+    margin: 0 auto;
+}
+
+div.row > div:hover {
+    cursor: pointer;
+    background-color: rgb(173, 233, 233);
+}
+
